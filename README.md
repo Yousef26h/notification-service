@@ -25,3 +25,10 @@ Assuming some requirements for the notification service, we can outline the foll
     - **Security**: The service should implement proper authentication and authorization mechanisms to protect user data and prevent unauthorized access to the notification system.
     - **Maintainability**: The service should be designed with clean code principles, modular architecture, and proper documentation to facilitate future maintenance and enhancements.
     - **Extensibility**: The service should be designed in a way that allows for easy addition of new notification channels or features in the future.
+
+
+## High level design
+
+I will first design a modular monolith architecture for the notification service, which will allow for easier development and testing of the core functionality. The architecture will consist of the following components:
+
+![high-level-design](./high-level-design.drawio.png)
